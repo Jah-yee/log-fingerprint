@@ -24,6 +24,7 @@ Requires Node 18+. No install step, no dependencies.
 ```bash
 node cli.js examples/app.log
 node cli.js examples/app.log --level ERROR --top 3
+cat examples/app.log | node cli.js -
 node --test
 ```
 

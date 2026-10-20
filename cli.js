@@ -19,5 +19,5 @@ if (!args.file) {
   process.exit(2);
 }
 
-const lines = fs.readFileSync(args.file, "utf8").split(/\r?\n/);
+const lines = (args.file === "-" ? fs.readFileSync(0, "utf8") : fs.readFileSync(args.file, "utf8")).split(/\r?\n/);
 console.log(toMarkdown(group(lines, { minLevel: args.level }), { top: args.top }));
