@@ -1,0 +1,14 @@
+2026-10-08T09:14:02.118Z INFO  api started on 10.0.3.17:8080
+2026-10-08T09:14:05.402Z WARN  slow query took 1840ms table="orders"
+2026-10-08T09:14:06.991Z ERROR payment 7f3c2a9e-1b44-4c1e-9a71-0d5e8c2f4b10 failed: gateway timeout after 30s
+2026-10-08T09:14:07.003Z ERROR payment 0a91d6c3-5e27-4f08-b3a2-9c4e71d08f55 failed: gateway timeout after 30s
+2026-10-08T09:14:07.250Z INFO  health check ok
+2026-10-08T09:14:09.876Z ERROR payment 3b7e0f12-8c65-4d9a-a1f4-6e2d93c7b801 failed: gateway timeout after 30s
+2026-10-08T09:14:11.040Z WARN  slow query took 2210ms table="orders"
+2026-10-08T09:14:12.512Z ERROR could not reach cache at 10.0.3.40:6379 (attempt 1)
+2026-10-08T09:14:13.512Z ERROR could not reach cache at 10.0.3.40:6379 (attempt 2)
+2026-10-08T09:14:14.512Z ERROR could not reach cache at 10.0.3.40:6379 (attempt 3)
+2026-10-08T09:14:15.007Z FATAL worker 4 exited with code 137
+2026-10-08T09:14:16.330Z WARN  slow query took 1950ms table="invoices"
+2026-10-08T09:14:18.902Z ERROR payment 9d2c4b6a-7e13-4a58-8f0b-1c3e5d7f9a24 failed: gateway timeout after 30s
+2026-10-08T09:14:20.144Z INFO  request served in 42ms
